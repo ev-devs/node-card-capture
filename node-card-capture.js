@@ -2,6 +2,8 @@
 
 let exec = require('child_process').execSync
 
-var trackdata = exec('sudo python card-reader.py')
+nodeCardCapture = function() {
+  return exec('sudo pythin card-reader.py').toString('utf8')
+}
 
-console.log(trackdata.toString('utf8'))
+module.exports = nodeCardCapture
