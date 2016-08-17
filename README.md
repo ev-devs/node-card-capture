@@ -3,10 +3,11 @@
 This runs a python `child_process`
 
 # Installation
-
-  $ sudo apt-get install libusb-1.0-0
-  $ sudo -H pip install pyusb --pre --upgrade
-  $ npm install node-card-capture
+```
+  $ sudo apt-get install libusb-1.0-0   
+  $ sudo -H pip install pyusb --pre --upgrade   
+  $ npm install node-card-capture   
+```
 
 # Usage
 
