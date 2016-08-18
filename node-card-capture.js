@@ -2,9 +2,13 @@
 
 let exec = require('child_process').execSync
 
-var CardCapture = function(callback) {
+var cardCapture = function(callback) {
   var trackdata = exec('sudo python card-reader.py').toString('utf8')
   callback(trackdata)
 }
 
-module.exports = CardCapture
+cardCapture(function(data){
+    console.log(data)
+})
+
+module.exports = cardCapture
