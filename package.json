@@ -1,6 +1,6 @@
 {
   "name": "node-card-capture",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "read magnetic card from a card reader in python, managed by node",
   "main": "main.js",
   "scripts": {
