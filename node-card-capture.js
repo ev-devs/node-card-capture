@@ -7,8 +7,10 @@ var cardCapture = function(callback) {
   callback(trackdata)
 }
 
+/*
 cardCapture(function(data){
     console.log(data)
 })
+*/
 
 module.exports = cardCapture
