@@ -1,8 +1,8 @@
 {
-  "name": "node-card-capture",
+  "name": "nodecardcapture",
   "version": "0.0.9",
   "description": "read magnetic card from a card reader in python, managed by node",
-  "main": "main.js",
+  "main": "node-card-capture.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
