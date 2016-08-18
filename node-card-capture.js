@@ -1,6 +1,6 @@
 'use strict'
 
-let exec = require('child_process').execelect
+let exec = require('child_process').execSync
 
 var cardCapture = function(callback) {
     console.log('The process is happeing in ' + __dirname)
