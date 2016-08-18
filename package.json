@@ -1,5 +1,5 @@
 {
-  "name": "nodecardcapture",
+  "name": "node-card-capture",
   "version": "0.0.10",
   "description": "read magnetic card from a card reader in python, managed by node",
   "main": "node-card-capture.js",
