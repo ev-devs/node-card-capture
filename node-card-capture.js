@@ -3,7 +3,7 @@
 let exec = require('child_process').execSync
 
 var cardCapture = function(callback) {
-  var trackdata = exec('sudo python card-reader.py').toString('utf8')
+  var trackdata = exec('sudo' + __dirname + '/python card-reader.py').toString('utf8')
   callback(trackdata)
 }
 
