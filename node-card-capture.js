@@ -3,14 +3,15 @@
 let exec = require('child_process').execSync
 
 var cardCapture = function(callback) {
-  var trackdata = exec('sudo' + __dirname + '/python card-reader.py').toString('utf8')
-  callback(trackdata)
+    console.log('The process is happeing in ' + __dirname)
+    var trackdata = exec('sudo python ' + __dirname + '/card-reader.py').toString('utf8')
+    callback(trackdata)
 }
 
-/*
+
 cardCapture(function(data){
     console.log(data)
 })
-*/
+
 
 module.exports = cardCapture
