@@ -25,8 +25,8 @@ In order to make this work we need 3 things
 # Usage
 
 ```javascript
-    var cardCapture       = require('./node-card-capture').cardCapture
-    var cardCaptureSync   = require('./node-card-capture').cardCaptureSync
+    var cardCapture       = require('node-card-capture').cardCapture
+    var cardCaptureSync   = require('node-card-capture').cardCaptureSync
 
     // Synchronous call aka Stops everything until it's done
     var trackdata = cardCaptureSync()
