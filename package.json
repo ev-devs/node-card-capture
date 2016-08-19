@@ -1,6 +1,6 @@
 {
   "name": "node-card-capture",
-  "version": "0.0.15",
+  "version": "0.1.0",
   "description": "launches a child process in python to read from the magtek reader directly and returns the raw track data ",
   "main": "node-card-capture.js",
   "scripts": {
