@@ -13,7 +13,9 @@
     "Capture",
     "Python",
     "Node.js",
-    "Linux"
+    "Linux",
+    "Raspberry Pi 3",
+    "MagTek"
   ],
   "author": "Juan G Ruelas Jr. (www.ruelas.me)",
   "license": "MIT"
