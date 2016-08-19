@@ -1,7 +1,7 @@
 {
   "name": "node-card-capture",
   "version": "0.0.15",
-  "description": "read magnetic card from a card reader in python, managed by node",
+  "description": "launches a child process in python to read from the magtek reader directly and returns the raw track data ",
   "main": "node-card-capture.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
