@@ -24,6 +24,4 @@ var cardCaptureSync = function() {
     return  execSync('sudo python ' + __dirname + '/card-reader.py').toString('utf8')
 }
 
-
-
 module.exports = cardCapture
