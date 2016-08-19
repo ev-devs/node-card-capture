@@ -4,7 +4,7 @@
   "description": "launches a child process in python to read from the magtek reader directly and returns the raw track data ",
   "main": "node-card-capture.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node node-card-capture.js"
   },
   "keywords": [
     "Magnetic",
@@ -15,6 +15,6 @@
     "Node.js",
     "Linux"
   ],
-  "author": "Juan G Ruelas Jr.",
+  "author": "Juan G Ruelas Jr. (www.ruelas.me)",
   "license": "MIT"
 }
