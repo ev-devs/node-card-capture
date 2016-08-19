@@ -11,7 +11,7 @@ Added support for Synchronous and Asynchronous calls
 
 In order to make this work we need 3 things
 
-* MagTek Card Reader
+* [MagTek Card Swiper](https://www.amazon.com/Magnetic-Stripe-Swipe-Card-Reader/dp/B001876VG6)
 * at least Python 2.7 installed with python libraries installed as well
 * this npm package
 
