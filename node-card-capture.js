@@ -25,8 +25,5 @@ var cardCaptureSync = function() {
 }
 
 
-cardCapture(function(stuffs){
-    console.log(stuffs)
-})
 
 module.exports = cardCapture
