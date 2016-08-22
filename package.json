@@ -1,6 +1,6 @@
 {
   "name": "node-card-capture",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "launches a child process in python to read from the magtek reader directly and returns the raw track data ",
   "main": "node-card-capture.js",
   "scripts": {
@@ -18,10 +18,10 @@
     "MagTek"
   ],
   "author": "Juan G Ruelas Jr. (www.ruelas.me)",
-  "email" : "jruel006@ucr.edu",
+  "email": "jruel006@ucr.edu",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/ev-devs/node-card-capture.git"
-    }
+    "type": "git",
+    "url": "https://github.com/ev-devs/node-card-capture.git"
+  }
 }
