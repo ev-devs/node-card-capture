@@ -7,7 +7,7 @@ var cardCapture = function(callback) {
 
     exec('sudo python ' + __dirname + "/card-reader.py", function(err, stdout, stderr){
         if (err){
-            console.log('there was an arrororooro')
+            console.log('there was an error running the python script')
         }
         else {
             if (stderr) {
