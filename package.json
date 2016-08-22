@@ -18,5 +18,10 @@
     "MagTek"
   ],
   "author": "Juan G Ruelas Jr. (www.ruelas.me)",
-  "license": "MIT"
+  "email" : "jruel006@ucr.edu",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ev-devs/node-card-capture.git"
+    },
 }
