@@ -8,6 +8,7 @@ var cardCapture = function(callback) {
     exec('sudo python ' + __dirname + "/card-reader.py", function(err, stdout, stderr){
         if (err){
             console.log('there was an error running the python script, maybe try installing packages from README.md for node-card-capture')
+            callback(err)
         }
         else {
             if (stderr) {
